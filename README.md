@@ -1,6 +1,6 @@
 # spring-data-rest-resourcemapping-bug
 
-This test case is so wiered.
+This test case is so wired.
 
 check out :
 https://github.com/LeeMyeongHyeon/spring-data-rest-resourcemapping-bug/blob/master/src/test/java/com/example/sample/IntegrationTest.java
