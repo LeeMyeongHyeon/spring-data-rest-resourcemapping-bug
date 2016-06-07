@@ -55,7 +55,7 @@ public class IntegrationTest {
 				.andDo(MockMvcResultHandlers.print())
 				.andExpect(jsonPath("$._embedded.cats[0].name").value("cat"))
 				.andExpect(jsonPath("$._embedded.cats[0].message").value("hi2"))
-				.andExpect(jsonPath("$._embedded.dogs[1].name").value("dog"))
-				.andExpect(jsonPath("$._embedded.dogs[1].message").value("hi"));
+				.andExpect(jsonPath("$._embedded.dogs[0].name").value("dog"))
+				.andExpect(jsonPath("$._embedded.dogs[0].message").value("hi"));
 	}
 }
