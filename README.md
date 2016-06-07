@@ -34,6 +34,7 @@ like this :
 ```
 
 I used @Relation on entities, implements @RestController manually and id is @EmbeddedId.
+
 First call result is ok but, after calls are different.
 
 second call :
